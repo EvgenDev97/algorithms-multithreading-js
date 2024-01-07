@@ -1,6 +1,6 @@
-module.exports = function factorial (n){
-    if(n < 2){
-        return 1
+module.exports = function factorial(n) {
+    if (n < 2) {
+        return 1;
     }
-    return factorial(n-1) * n
-}
+    return factorial(n - 1) * n;
+};
