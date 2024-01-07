@@ -1,4 +1,5 @@
-const {Worker} = require("./worker")
+const {Worker} = require("worker_threads")
+const {parentPort, workerData} = require("worker_threads")
 const factorial = require("./factorial")
 const compute = (array)=>{
     return new Promise((resolve,reject)=>{
